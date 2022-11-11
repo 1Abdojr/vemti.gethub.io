@@ -1,0 +1,480 @@
+nav{
+    background-color: white;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+ul  a{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+ul a:hover{
+    color: rgb(0, 0, 0);
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.main h2,
+.main h3,
+.main p,
+.main .icons{
+    color: white;
+    font-weight: 500;
+}
+
+.main h2{
+    font-size: 38px;
+}
+
+.main h3{
+    font-size: 48px;
+}
+
+.icons a{
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.main .icons .facebook :hover{
+    font-size: 18px;
+    color: #1674EA;
+}
+
+.main .icons .insta :hover{
+    font-size: 18px;
+    color: #DE297D;
+}
+
+.main .icons .tiktok :hover{
+    font-size: 18px;
+    color: #D00444;
+}
+
+.text {
+    color: white;
+    font-size: 100px;
+    padding-left: 30%;
+    display: inline-block;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.card img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.7s ease;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card .info{
+    text-align: center;
+}
+
+.card .info h2{
+    color: #BBBBBB;
+    font-size: 24px;
+
+}
+
+.card .info p{
+    color: F2F2F2;
+}
+
+.about{
+    background-color: black;
+}
+
+.about .title{
+    color: white;
+    font-size: 32px;
+}
+
+.about .container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    font-size: 28px;
+}
+
+.about .right{
+    width: 45%;
+}
+
+.about .left{
+    width: 45%;
+}
+
+.contact .title{
+    font-size: 35px;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 2px 2px white;
+  }
+
+input[type=submit]:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px black;
+}
+  
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+.contact .container {
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .foot{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    font-size: 1.1em;
+  }
+
+.foot .icons .facebook :hover{
+    font-size: 1.2em;
+    color: #1674EA;
+}
+
+.foot .icons .insta :hover{
+    font-size: 1.2em;
+    color: #DE297D;
+}
+
+.foot .icons .tiktok :hover{
+    font-size: 1.2em;
+    color: #D00444;
+}
+
+.foot p{
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+
+
+@media screen and (max-width:400px) {
+
+    nav{
+        background-color: white;
+        width: 100%;
+        height: 100px;
+        z-index: 999;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logo{
+        text-decoration: none;
+        color: rgb(15, 15, 15);
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    ul {
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        padding-left: 3%;
+    }
+    
+    ul  a{
+        text-decoration: none;
+        color: rgb(15, 15, 15);
+        font-size: 20px;
+        font-weight: 500;
+        float: left;
+        padding: 7px;
+        font-size: 7px;
+        }
+    
+    ul a:hover{
+        color: rgb(0, 0, 0);
+    }
+    
+    section{
+        padding: 110px 300px;
+        width: 100%;
+    }
+
+    .main{
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        min-height: 1vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main h2,
+    .main h3,
+    .main p,
+    .main .icons{
+        color: white;
+        font-weight: 500;
+    }
+    
+    .main h2{
+        font-size: 24px;
+    }
+    
+    .main h3{
+        font-size: 18px;
+    }
+    
+    .icons a{
+        text-decoration: none;
+        padding-left: 8px;
+    }
+    
+    .icons{
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+    }
+    
+    .main .icons .facebook :hover{
+        font-size: 13px;
+        color: #1674EA;
+    }
+    
+    .main .icons .insta :hover{
+        font-size: 13px;
+        color: #DE297D;
+    }
+    
+    .main .icons .tiktok :hover{
+        font-size: 13px;
+        color: #D00444;
+    }
+    
+    .text {
+        color: white;
+        font-size: 50px;
+    }
+
+    .model{
+        padding: 110px 300px;
+        padding-top: 10px;
+    }
+    
+    .title{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    .card img{
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+        transition: 0.7s ease;
+    }
+
+    .card .image{
+    }
+    
+    .card img:hover{
+        transform: scale(1.1);
+    }
+    
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .card .info{
+        text-align: center;
+    }
+    
+    .card .info h2{
+        color: #BBBBBB;
+        font-size: 10px;
+    
+    }
+    
+    .card .info p{
+        color: F2F2F2;
+        font-size: 12px;
+    }
+    
+    .about{
+        background-color: black;
+        padding: 120px 120px;
+    }
+    
+    .about .title{
+        color: white;
+        font-size: 15px;
+    }
+    
+    .about .container{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        font-size: 10px;
+    }
+    
+    .about .right{
+        width: 48%;
+    }
+    
+    .about .left{
+        width: 48%;
+    }
+    
+    .contact .title{
+        font-size: 15px;
+    }
+    
+    input[type=submit] {
+        background-color: black;
+        color: white;
+        padding: 12px 20px;
+        border: #ccc;
+        border-radius: 4px;
+        cursor: pointer;
+        box-shadow: 2px 2px white;
+      }
+    
+    input[type=submit]:hover{
+        background-color: white;
+        color: black;
+        box-shadow: 2px 2px black;
+    }
+      
+      input[type=text], select, textarea {
+        width: 100%; /* Full width */
+        padding: 12px; /* Some padding */ 
+        border: 1px solid #ccc; /* Gray border */
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+      }
+      
+    .contact .container {
+        border-radius: 15px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+    
+      .foot{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 32px;
+        font-size: 1.1em;
+      }
+    
+    .foot .icons .facebook :hover{
+        font-size: 1.2em;
+        color: #1674EA;
+    }
+    
+    .foot .icons .insta :hover{
+        font-size: 1.2em;
+        color: #DE297D;
+    }
+    
+    .foot .icons .tiktok :hover{
+        font-size: 1.2em;
+        color: #D00444;
+    }
+    
+    .foot p{
+        font-size: 1.3em;
+        font-weight: 400;
+    }
+}
